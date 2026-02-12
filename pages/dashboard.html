@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Flaticon UIcons Regular -->
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css" />
+  <link rel="stylesheet" href="styles/dashboard.css" />
+  <title>GameHub Dashboard</title>
+</head>
+<body>
+    <!-- Navigation Bar Top -->
+    <div id="NavTop" class="NavTop">
+        <!-- Company Logo Picture -->
+        <img src="../assets/images/CompanyLogo2.PNG" alt="GameHub Logo">
+        <!-- Nav Top Icons Link -->
+        <div id="NavTopIcons" class="NavTopIcons">
+            <ul>
+                <li><a href="../index.html"><i class="fi fi-rr-home"></i></a></li>
+                <li><a href="/pages/dashboard.html"><i class="fi fi-rr-gamepad"></i></a></li>
+                <li><a href="#"><i class="fi fi-rr-star"></i></a></li>
+                <li><a href="#"><i class="fi fi-rr-trophy"></i></a></li>
+                <li><a href="#"><i class="fi fi-rr-user"></i></a></li>
+            </ul>
+        </div>
+
+        <!-- BTN Container for Sign Up & Login -->
+        <div id="BTN-Container" class="BTN-Container">
+            <button id="SignUp-BTN" class="SignUp-BTN" type="button">Sign Up</button>
+            <button id="Login-BTN" class="Login-BTN" type="button">Login</button>
+        </div>
+    </div>
+
+    <div id="TopTrending" class="TopTrending">
+        <h1><img src="../assets/font/TTOS.png" alt="Top Trending Games On Steam"></h1>
+
+        <div class="game-container" id="games">
+            <div id="TopTrendingGame1" class="TopTrendingGame1">
+                <div class="game-card">
+                    <img src="https://cdn2.unrealengine.com/fortnite-og-social-1920x1080-a5adda66fab9.jpg" alt="Fortnite" class="game-image" />
+                    <h3 class="game-title">Fortnite</h3>
+                    <p class="game-description">
+                        Join millions of players worldwide in Fortnite's latest season. Build, battle, and survive in this iconic battle royale!
+                    </p>
+                    <a href="" target="_blank" class="buy-btn">Buy on Steam</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script type="module" src="js/dashboard.js">
+</script>
+</html>

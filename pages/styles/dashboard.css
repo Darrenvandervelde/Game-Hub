@@ -1,0 +1,182 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: none !important; /* Firefox */
+  -ms-overflow-style: none !important; /* IE and Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none !important; /* Chrome, Safari, Opera */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #fff; /* Light text for dark background */
+  background-color: #000; /* Black background */
+  scrollbar-width: none !important; /* Firefox */
+  -ms-overflow-style: none !important; /* IE and Edge */
+}
+body::-webkit-scrollbar {
+  display: none !important; /* Chrome, Safari, Opera */
+}
+
+/* Navigation Top */
+.NavTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #111; /* Darker background for header */
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.NavTop img {
+  height: 50px;
+}
+
+.NavTopIcons ul {
+  margin-left: 100px;
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.NavTopIcons a {
+  color: #ff0000; /* Red icons */
+  font-size: 1.8em;
+  transition: color 0.3s;
+}
+
+.NavTopIcons a:hover {
+  color: #570505; /* Bright red on hover */
+}
+
+/* Buttons Container */
+#BTN-Container {
+  display: flex;
+  gap: 10px;
+}
+
+.SignUp-BTN,
+.Login-BTN {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.SignUp-BTN {
+  background-color: #ff0000; /* Bright red */
+  color: #fff;
+}
+
+.SignUp-BTN:hover {
+  background-color: #cc0000; /* Darker red */
+}
+
+.Login-BTN {
+  background-color: #222; /* Dark gray/black */
+  color: #fff;
+}
+
+.Login-BTN:hover {
+  background-color: #000; /* Pure black on hover */
+}
+
+.TopTrending {
+  padding: 12px;
+  width: 95%;
+  margin-left: 15px;
+  margin-top: 50px;
+  justify-items: center;
+}
+.TopTrending h1 img {
+  height: 50px;
+}
+
+.TopTrending h1 {
+  border-bottom: 3px solid #cc0000;
+}
+
+.TopTrendingGame1 {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1500px;
+  height: 400px;
+  border: 1px solid #ff0000;
+  background-color: #57050546;
+}
+
+/* Container for all game cards */
+#games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #000; /* Optional: dark background */
+}
+
+/* Individual game card wrapper (optional for styling) */
+.TopTrendingGame1 {
+  width: 300px;
+}
+
+/* Style for the card itself */
+.game-card {
+  background-color: #1f1f1f;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Game image styling */
+.game-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Title styling */
+.game-title {
+  margin: 15px 10px 10px 10px;
+  font-size: 1.4em;
+  color: #fff;
+  text-align: center;
+}
+
+/* Description styling */
+.game-description {
+  margin: 0 10px 15px 10px;
+  font-size: 1em;
+  color: #ccc;
+  text-align: center;
+}
+
+/* Button styling */
+.buy-btn {
+  display: block;
+  margin: 0 auto 15px auto;
+  padding: 10px 20px;
+  background-color: #00aaff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  width: fit-content;
+}
+
+.buy-btn:hover {
+  background-color: #0088cc;
+}

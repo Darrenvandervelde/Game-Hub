@@ -79,21 +79,21 @@ Game-Hub/
 ## Installation
 1. Clone the repository:
 
-```bash
-git clone https://github.com/yourusername/game-hub.git
-```
+    ```bash
+    git clone https://github.com/yourusername/game-hub.git
+    ```
 
 2. Navigate into the project directory:
 
-```bash
-cd game-hub
-```
+    ```bash
+    cd game-hub
+    ```
 
 3. Open `index.html` in your browser to view the site locally:
 
-```bash
-open index.html
-```
+    ```bash
+    open index.html
+    ```
 Note: No additional setup is required.
 
 ---

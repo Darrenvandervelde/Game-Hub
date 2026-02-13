@@ -1,4 +1,4 @@
-# Game Hub
+# Dragon Forge
 
 ![Game Hub Demo](assets/Screenshot.png)
 

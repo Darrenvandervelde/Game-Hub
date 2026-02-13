@@ -4,7 +4,7 @@
 ![Game Hub Demo](ProjectImg2.png)
 ![Game Hub Demo](ProjectImg3.png)
 
-Please click here to [view live demo](https://your-live-demo-link.com)
+Please click here to [view live demo](https://game-hub-nu-beige.vercel.app)
 
 ---
 

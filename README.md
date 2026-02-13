@@ -56,12 +56,12 @@ Game-Hub/
 ├── style/
 │       └── style.css
 ├── pages/
-|       ├── dashboards.html
-|       ├── js/
-|       |    └── dashboard.js
-|       └── style/
-|               └── dashboard.css
-|
+│       ├── dashboards.html
+│       ├── js/
+│       │    └── dashboard.js
+│       └── style/
+│               └── dashboard.css
+│
 ├── LICENSE
 └── README.md
 ```

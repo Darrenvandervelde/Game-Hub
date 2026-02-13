@@ -49,15 +49,22 @@ This project serves as a robust frontend foundation for a gaming community platf
 
 ## Project Structure
 
+```bash
 Game-Hub/
 │
 ├── index.html
-├── style.css
-├── script.js
-├── ProjectImg1.png
-├── ProjectImg2.png
-├── ProjectImg3.png
+├── style/
+│       └── style.css
+├── pages/
+|       ├── dashboards.html
+|       ├── js/
+|       |    └── dashboard.js
+|       └── style/
+|               └── dashboard.css
+|
+├── LICENSE
 └── README.md
+```
 
 ---
 

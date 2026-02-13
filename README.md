@@ -1,8 +1,7 @@
 # Game Hub
 
-![Game Hub Demo](ProjectImg1.png)
-![Game Hub Demo](ProjectImg2.png)
-![Game Hub Demo](ProjectImg3.png)
+![Game Hub Demo](assets/Screenshot.png)
+
 
 Please click here to [view live demo](https://game-hub-nu-beige.vercel.app)
 
